@@ -103,7 +103,7 @@
 	<aside id="fh5co-hero">
 		<div class="flexslider">
 			<ul class="slides">
-		   	<li style="background-image: url(images/img_bg_1.jpg);">
+		   	<li style="background-image: url(images/sunset.jpg);">
 		   		<div class="overlay-gradient"></div>
 		   		<div class="container">
 		   			<div class="row">
@@ -117,7 +117,7 @@
 			   		</div>
 		   		</div>
 		   	</li>
-		   	<li style="background-image: url(images/img_bg_2.jpg);">
+		   	<li style="background-image: url(images/programmer.jpg);">
 		   		<div class="overlay-gradient"></div>
 		   		<div class="container">
 		   			<div class="row">
@@ -600,12 +600,8 @@ function plan_and_pricing(){
       'currency' => "$",
       'span' =>"09",
       'year' => "per year",
-      'pricing_features' => array(
-        'a', 'b', 'c', 'd'
-      ),
-      'button' => "Choose plan",
-    ),
-
+       'li' => "pricing__feature"
+   )
  );
  $content_plan = "";
  //print_r($plan_content);
@@ -625,12 +621,6 @@ function plan_and_pricing(){
                      </div>
                      <div class="wrap-price">
                      	<ul class="pricing__feature-list">
-
-                     	  '<?php
-                             foreach ($f['pricing_features'] as $price) {
-                             	
-                             }
-                     	  ?>'
 	                        <li class="pricing__feature">'.$f['li'].'</li>
 	                        <li class="pricing__feature">Limited Courses</li>
 	                        <li class="pricing__feature">Free 3 Lessons</li>

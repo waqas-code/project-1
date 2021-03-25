@@ -600,12 +600,8 @@ function plan_and_pricing(){
       'currency' => "$",
       'span' =>"09",
       'year' => "per year",
-      'pricing_features' => array(
-        'a', 'b', 'c', 'd'
-      ),
-      'button' => "Choose plan",
-    ),
-
+       'li' => "pricing__feature"
+   )
  );
  $content_plan = "";
  //print_r($plan_content);
@@ -625,12 +621,6 @@ function plan_and_pricing(){
                      </div>
                      <div class="wrap-price">
                      	<ul class="pricing__feature-list">
-
-                     	  '<?php
-                             foreach ($f['pricing_features'] as $price) {
-                             	
-                             }
-                     	  ?>'
 	                        <li class="pricing__feature">'.$f['li'].'</li>
 	                        <li class="pricing__feature">Limited Courses</li>
 	                        <li class="pricing__feature">Free 3 Lessons</li>

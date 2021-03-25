@@ -8,5 +8,7 @@
   plan_and_pricing();
   online_course_time();
   instgram_gallery();
+
+ 
 ?>
 <?php include "footer.php"; ?>

@@ -153,7 +153,7 @@
 function print_footer(){
 
  echo '
-<footer id="fh5co-footer" role="contentinfo" style="background-image: url(images/img_bg_4.jpg);">
+<footer id="fh5co-footer" role="contentinfo" style="background-image: url(images/programmer.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row row-pb-md">

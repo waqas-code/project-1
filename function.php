@@ -117,7 +117,7 @@
 			   		</div>
 		   		</div>
 		   	</li>
-		   	<li style="background-image: url(images/img_bg_2.jpg);">
+		   	<li style="background-image: url(images/programmer.jpg);">
 		   		<div class="overlay-gradient"></div>
 		   		<div class="container">
 		   			<div class="row">
